@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+button {
+    position: absolute;
+    display: block;
+    z-index: 99;
+    left: 1%;
+    top: 1%;
+    padding: 5px;
+}
